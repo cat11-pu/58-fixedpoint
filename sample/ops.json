@@ -1,0 +1,9 @@
+{
+  "decimals": 2,
+  "left": 1.125,
+  "right": 2.25,
+  "exact_total": 3.375,
+  "error_limit": 0,
+  "roundtrip_invariant": true,
+  "modes": ["HALF_UP", "HALF_EVEN", "DOWN"]
+}
