@@ -22,8 +22,7 @@ class Amount:
         return result
 
     def set_rounding(self, mode: str) -> dict:
-        self.fixed.rounding = mode
-        return {"rounding": mode}
+        return self.fixed.set_rounding(mode)
 
     def pack(self) -> bytes:
         return self.fixed.pack()
